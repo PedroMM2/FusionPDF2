@@ -47,7 +47,7 @@ class PDFMergerApp:
                 self.listbox.delete(0, tk.END)  # Borra los elementos de la lista en la GUI
                 messagebox.showinfo("Éxito", "Los archivos PDF se han fusionado correctamente.")  # Muestra un mensaje de éxito
 
-# Punto de entrada principal de la aplicación
+# Punto de entrada principal inicio (de la aplicación)
 if __name__ == "__main__":
     root = tk.Tk()  # Crea una instancia de la ventana principal de tkinter
     app = PDFMergerApp(root)  # Crea una instancia de la aplicación PDFMergerApp
